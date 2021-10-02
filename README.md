@@ -15,3 +15,11 @@ https://www.postman.com/downloads/
 3. Type in **gradlew build** (This command will download the dependencies, compile, and build the program)
 4. Type in **gradlew bootRun** (This command will load the services)
 5. Please find the collections of requests in **/vehicle-management/src/main/resources/vehicle mgmt requests.postman_collection.json**. Import this file into postman and you should be able to test the implemented requests according to the requirements.
+
+
+### H2 db console ###
+
+I am using H2 memory db to handle and manage the data. So any time the service is closed, the data is lost. 
+You may use the H2 console locally to checkout the database.
+
+http://localhost:8080/h2-console
